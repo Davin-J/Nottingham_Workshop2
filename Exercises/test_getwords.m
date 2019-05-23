@@ -5,7 +5,7 @@ tests = functiontests( localfunctions() );
 end
 
 function setupOnce(testCase) %#ok<*DEFNU>
-
+addpath('Literature');
 end
 
 function test_IncorrectFilename(testCase) 
